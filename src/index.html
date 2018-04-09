@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试脚手架</title>
+    <style>
+        body{
+            width: 500px;
+            height: 400px;
+            /*transform: scale(2);*/
+            /*transform-origin: top left ;*/
+        }
+        img{
+            /*width: 200px;*/
+            /*height: 200px;*/
+
+        }
+        #scale{
+            transform: scale(2);
+            transform-origin: top left ;
+        }
+    </style>
+</head>
+<body>
+<div id="app">
+    <p>今天是2018年4月2日</p>
+    <div>这就是测试一下,我也就会说不知道怎么办了而已,怎么又成这个样子的,现在又好了么</div>
+    <img src="./img/04-N.png" alt="">
+    <img src="./img/04-N.png" alt="" id="scale">
+    <img src="./img/animal.gif" alt="">
+    <video src="${require(`./media/movie.ogg`)}" controls="controls">
+    <!--<video src="./media/movie.ogg" controls="controls"></video>-->
+        your browser does not support the video tag
+    </video>
+    <div class="input">
+        <div class="bg"></div>
+        <input type="text" placeholder="请输入所需要的信息">
+    </div>
+</div>
+</body>
+</html>

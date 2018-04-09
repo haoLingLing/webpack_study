@@ -1,0 +1,10 @@
+#app{
+    background: pink;
+    font-family: DigitalFont;
+}
+
+@font-face {
+    font-family: 'DigitalFont';
+    src: url('../font/digifacewide.ttf'), /* IE9*/
+    url('../font/digifacewide.ttf') format('truetype'); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}

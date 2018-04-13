@@ -1,0 +1,28 @@
+@CHARSET "UTF-8";
+/* reset */
+/* outline: none; */
+body{background: #fff none repeat scroll 0 0;font-family: "微软雅黑",Arial;font-size: 14px; margin: 0px; color: #595952; user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -o-user-select:none;
+    -moz-user-select: none;}
+body,h1,h2,h3,h4,h5,h6,p,dl,dd,ul,ol,pre,form,input,textarea,th,td,select,table{margin:0;padding:0;}
+em{font-style:normal}
+li{list-style:none}
+a{text-decoration:none;outline: none;color:#000;}
+img{border:none; vertical-align:bottom;padding-right:3px;}
+/* table{border-collapse:collapse;} */
+textarea{ resize:none;overflow:auto;}
+input{outline: none;}
+i{font-style: normal}
+b{font-style: normal}
+/* end reset */
+/* 清除浮动 */
+.clear:after{content:'';display:block;clear:both;}
+.clear{zoom:1;}
+/* 清除浮动end */
+.on {display: block;}
+.off{display: none;}
+.fl{float: left;}
+.fr{float: right;}
+.text-center{text-align: center;}

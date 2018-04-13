@@ -3,6 +3,23 @@
     font-family: DigitalFont;
 }
 
+.button,.home{
+    border: 1px solid #ccc;
+    font-family: Arial;
+    display: inline-block;
+    padding: 10px;
+    background: salmon;
+    border-radius: 10px;
+    cursor: pointer;
+}
+video{
+    float: left;
+    margin-right: 20px;
+}
+.vedio{
+    clear: both;
+    overflow: hidden;
+}
 @font-face {
     font-family: 'DigitalFont';
     src: url('../font/digifacewide.ttf'), /* IE9*/

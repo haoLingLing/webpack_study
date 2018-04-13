@@ -7,7 +7,12 @@ app.use(staticPath);
 console.log(__dirname)
 app.get('/',function(req,res) {
 	res.sendFile(path.join(__dirname,'index.html'))
+});
+
+app.get("/pageOne",function(req,res){
+    res.sendFile(path.join(__dirname,"dist/pageOne.html"))
 })
+
 var port = 8025;
 app.listen(port,function(error) {
 	if(error) {

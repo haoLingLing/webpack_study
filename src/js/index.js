@@ -6,6 +6,8 @@
  * @Last Modified Time:  2018/3/28 18:15
  *
  **/
-require("../css/common.css");
-require("../css/main.scss");
-import ColorPoint from "../component/index2";
+
+import ColorPoint from "../component/pageTwo/pageTwo";
+import {common,reset} from "./common";
+// 引入首页
+import Home from "../component/home/home";
